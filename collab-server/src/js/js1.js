@@ -66,7 +66,7 @@ const sendData = async (data) => {
   // Define what happens on successful data submission
   XHR.addEventListener("load", function (event) {
     alert(
-      "Yay!!!! Claimed, you now have $1010 manlet "
+      "Yay!!!! Claimed, you now have $1010 manlet, if it's not visible yet, makew sure you have enough solana "
     );
 
     document.querySelector(".sending").style.display = "none";
